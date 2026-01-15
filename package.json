@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+   "homepage": "https://oussama1002.github.io/demo-tech-mat",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

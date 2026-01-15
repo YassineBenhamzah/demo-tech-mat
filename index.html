@@ -3,48 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechStock Manager - Logiciel de Gestion</title>
+    <title>TechStock Manager</title>
 
-    <!-- Tailwind CDN (OK for demo) -->
+    <!-- Tailwind CDN OK for demo -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              brand: {
-                50: '#f0f9ff',
-                100: '#e0f2fe',
-                500: '#0ea5e9',
-                600: '#0284c7',
-                700: '#0369a1',
-                900: '#0c4a6e',
-              }
-            }
-          }
-        }
-      }
-    </script>
-
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-        background-color: #f8fafc;
-      }
-      .custom-scrollbar::-webkit-scrollbar {
-        height: 6px;
-        width: 6px;
-      }
-      .custom-scrollbar::-webkit-scrollbar-track {
-        background: #f1f5f9;
-      }
-      .custom-scrollbar::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
-        border-radius: 4px;
-      }
-    </style>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- ONLY THIS -->
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

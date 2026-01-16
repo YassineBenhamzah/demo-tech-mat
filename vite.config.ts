@@ -6,6 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
           base: '/demo-tech-mat/', // 👈 VERY IMPORTANT
+          
 
       server: {
         port: 3000,
